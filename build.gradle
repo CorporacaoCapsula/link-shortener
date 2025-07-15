@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'            // só se quiser usar `gradlew run`
+}
+
+group = 'org.capsulecorp.git'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    // diz ao Gradle qual é a sua classe principal
+    mainClass.set('org.capsulecorp.git.Main')
+}
