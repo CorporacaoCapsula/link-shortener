@@ -38,5 +38,5 @@ Uma aplicação desktop elegante e intuitiva para transformar URLs longas em lin
 
 2. **Clone o repositório**  
    ```bash
-   git clone https://github.com/seu-usuario/url-shortener-gui.git
-   cd url-shortener-gui
+   git clone https://github.com/CorporacaoCapsula/link-shortener.git
+   cd link-shortener
